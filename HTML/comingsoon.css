@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&family=Oswald:wght@200;700&family=Playfair+Display:wght@400;900&family=Roboto:wght@900&display=swap');
+
+:root{
+    --yellow:#ffbb30;
+    --black:#242424;
+    --grey:#818181;
+    --white:#ffffff;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+}
+body{
+    height: 100%;
+    background-color:var(--yellow);
+    font-family:"Oswald",sans-serif;
+}
+img{
+    display: block;
+    margin-top: 7.5mm;
+    margin-bottom: 7.5mm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 37.5mm;
+    width: 37.5mm;
+
+}
+.banner{
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+background-color: var(--white);
+padding-bottom: 7.5mm;
+}
+h1{
+    text-align: center;
+    font-size: 22.5mm; 
+    color: var(--black);
+}
+.text-container{
+    width: 60%;
+    display: block;
+    margin-left: 22cm;
+    margin-right: 17cm;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+
+}
+p{
+    color: var(--grey);
+    font-size: 25px;
+}

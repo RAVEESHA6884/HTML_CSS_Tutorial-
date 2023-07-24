@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&family=Playfair+Display:wght@400;900&family=Roboto:wght@900&display=swap');
+body{
+    font-family:"Montserrat", "serif";
+    background: linear-gradient(90deg, #E1A2B8 0%, #9F2BC1 100%);
+}
+h1{
+    font-size: 70px;
+    font-family:"Montserrat";
+    color: #F4BE2C;
+    text-align: center;
+    margin: 20px;
+    font-weight: 800;
+}
+span{
+    font-style: italic;
+    font-size: 100px;
+    color: #5A20CB;
+
+}
+p{
+    font-size: 20px;
+    color: #0D0D0D;
+    margin-top: -30px;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 40px;
+    letter-spacing: 3px;
+    font-weight:bold;
+}
+button{
+    margin: 1cm 22cm;
+    display: block;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 60%;
+    color: black;
+    font-size: 1rem;
+font-weight: 500;
+padding: 0.5cm 2cm;
+cursor: grab;
+text-align: center;
+text-transform: uppercase;
+font-family: "Montserrat";
+font-weight: 900;
+}
+.btn:hover{
+    color: white;
+    outline: 10;
+}
+.lco{
+    transition: box-shadow 300ms ease-in-out,color 300ms ease-in-out;
+}
+.lco:hover{
+    box-shadow: 0 0 40px 40px black inset;
+}
+@media screen and (max-width:800px )
+{
+    body{
+        background: #5A20CB;
+    }
+}

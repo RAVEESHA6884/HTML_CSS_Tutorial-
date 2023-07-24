@@ -1,0 +1,50 @@
+.pure-table{
+border-collapse: collapse;
+border-spacing:0;
+empty-cells:show;
+border:1px solid #914343;
+}
+.pure-table caption {
+    color: rgb(24, 27, 212);
+    font: italic 85% 1 arial,sans-serief;
+    padding: 1em 0;
+    text-align: center;
+}
+.pure-table td,
+.pure-table th{
+    border-left: 1px solid #d617cf;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: 0.5em 1em;
+}
+.pure-table thread{
+    background-color: aquamarine;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+.pure-table td{
+    background-color: transparent;
+}
+.pure-table-odd td{
+    background-color: darkgreen;
+}
+.pure-table-striped tr:nth-child(2n-1) td{
+    background-color: darkorange;
+}
+.pure-table-bordered td{
+    border-bottom:1px solid #1db45f
+}
+.pure-table-bordered tbody>tr:last-child>td{
+    border-bottom-width: 0;
+}
+.pure-table-horizontal td,
+.pure-table-horizontal th{
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #7f0fbc;
+}
+.pure-table-horizontal tbody>tr:last-child>td{
+    border-bottom-width: 0;
+}

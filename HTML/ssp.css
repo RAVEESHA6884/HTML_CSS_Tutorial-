@@ -1,0 +1,24 @@
+div{
+    text-align: center;
+    border: 2px solid black;
+    border margin: 20px right;
+}
+
+h1{
+    text-align: center;
+    background-color: #3944F7;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-family: Italic;
+}
+span{
+    color: yellowgreen;
+}
+button{
+    background-color: #3944F7;
+}
+p.button{
+    background-color: red;
+}
